@@ -25,10 +25,10 @@ src/
 │   ├── Category.java       # Category model
 │   └── Transaction.java    # Transaction model
 └── ui/                     # User Interface components
-    ├── AddTransactionFrame.java # Add transaction form
-    ├── BalanceFrame.java    # Balance display window
-    ├── MainFrame.java       # Main application window
-    └── ViewTransactionsFrame.java # Transaction viewer
+    ├── AddTransactionFrame.java    # Add transaction form
+    ├── BalanceFrame.java           # Balance display window
+    ├── MainFrame.java              # Main application window
+    └── ViewTransactionsFrame.java  # Transaction viewer
 ```
 
 ## Requirements
