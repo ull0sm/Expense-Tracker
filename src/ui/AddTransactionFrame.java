@@ -22,6 +22,7 @@ public class AddTransactionFrame extends JFrame {
         setTitle("Add Transaction");
         setSize(400, 500);
         setLayout(new BorderLayout());
+        setLocationRelativeTo(null);  // center the frame on screen
         
         // Initialize components
         typeBox = new JComboBox<>(new String[]{"income", "expense"});

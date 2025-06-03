@@ -7,6 +7,7 @@ public class BalanceFrame extends JFrame {
     public BalanceFrame() {
         setTitle("Current Balance");
         setSize(300, 100);
+        setLocationRelativeTo(null);  // center the frame on screen
 
         double balance = new TransactionDAO().getBalance();
         JLabel label = new JLabel("Your current balance is: ₹" + balance);
